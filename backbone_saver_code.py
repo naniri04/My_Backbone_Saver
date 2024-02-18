@@ -11,7 +11,7 @@ def notify():
     title = title_list.pop()
     message = "잠시 시간을 내어 허리를 쭉 펴세요"
 
-    toaster.show_toast(title, message, duration=1)
+    toaster.show_toast(title, message, duration=30)
     title_list.add(title)
         
 if __name__ == "__main__":
